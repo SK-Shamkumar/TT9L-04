@@ -13,7 +13,7 @@ def login():
         if username == 'admin' and password == 'password':
             return 'Login successful!'
         else:
-            return 'Invalid username or password'
+            return 'Incorrect username or password'
 
    
     return render_template('login.html')
